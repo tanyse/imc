@@ -48,23 +48,19 @@ export default function App() {
   );
 }
 
-// nao colocar o onclick no text
-// a div sempre vai ser flexbox 0
-// button não aceita style
-
 const style = StyleSheet.create({
     container:{
       backgroundColor: '#008080',
-      flex:1, // definindo o espaço para toda tela
-      justifyContent:"center", /// todos que estão na horizontal está no centro
-      margin:10, //se descolar 10px para cada lado
+      flex:1, 
+      justifyContent:"center", 
+      margin:10,
     },
     inputs:{
-      height: 40, // altura de 40 cm
-      borderColor: '#000000', // borda cinza
-      borderWidth: 1, //borda de altura
-      marginBottom: 10, //se desloca 10px para cima
-      paddingLeft: 10, // cria uma area de 10px na sua esquerda
+      height: 40, 
+      borderColor: '#000000', 
+      borderWidth: 1, 
+      marginBottom: 10, 
+      paddingLeft: 10, 
     },
     text:{
       textAlign: 'center',
