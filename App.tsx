@@ -18,7 +18,7 @@ export default function App() {
 
   function calcular(){
     const alturaEmMetro = altura/100
-    const imc = (massa / (alturaEmMetro * alturaEmMetro)).toFixed(2);
+    const imc = (massa / (altura * altura)).toFixed(2);
     if(!isNaN(Number(imc))){
       setResultado(imc)
     }else{
